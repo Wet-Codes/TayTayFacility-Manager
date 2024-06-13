@@ -40,7 +40,7 @@
             >Login</v-btn
           >
           <p class="loginP">
-            Don't have an account? <a href="/signUp">Sign up!</a>
+            Don't have an account? <a href="signUp">Sign up!</a>
           </p>
         </v-form>
       </div>
