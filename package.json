@@ -3,22 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-   
-    "launch-2" : "cd server && npm install express && npm start",
-    
-    "dist" : "cd client && cd dist && npm run serve",
-    
-    "link" : "cd client && npm run serve",
-
-
-
-
     "dev": "cd server && npm install && npm run start",
-    "start" : "npm run cutg && npm run launch",
     "cutg" : "cd server && npm install --save -g dotenv && npm install nodemon -g",
     "launch" : "cd server && npm install express && npm start",
+    "Start" : "npm run cutg && npm run launch",
+    
 
-
-    "client" : "cd client && npm install && npm run build"
+    "client" : "cd client && npm install && npm run build",
+    "locate" : "cd client && cd dist",
+    "devb" : "cd client && npm run serve",
+    "dist" : "cd client && cd dist && npm run serve",
+    "Build" : "npm run client && npm run locate"
   }
 }
