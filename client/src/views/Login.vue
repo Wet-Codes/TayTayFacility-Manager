@@ -39,9 +39,9 @@
             width="200"
             >Login</v-btn
           >
-          <p class="loginP">
-            Don't have an account? <a href="signUp">Sign up!</a>
-          </p>
+          <h class="loginP">
+            Don't have an account? <v-btn :to="{name:'signUp'}">Sign up!</v-btn>
+          </h>
         </v-form>
       </div>
     </div>
@@ -198,8 +198,8 @@ a {
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 15px;
+  font-size: 15px;
   color: white;
 }
 
