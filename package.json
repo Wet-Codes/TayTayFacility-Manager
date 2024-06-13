@@ -1,0 +1,17 @@
+{
+  "name": "TayTay-Facility-Manager",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cd server && npm install && npm run start",
+    "start" : "npm run cutg && npm run launch",
+    "cutg" : "cd server && npm install nodemon -g",
+    "launch" : "cd server && npm install && npm start",
+
+
+    "client" : "cd client && npm install && npm run build",
+    "clients" : "cd client && cd dist",
+    "YES!" : "npm run client && npm run clients",
+    "link" : "cd client && npm run serve"
+  }
+}
