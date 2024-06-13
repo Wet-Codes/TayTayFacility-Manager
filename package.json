@@ -11,8 +11,6 @@
 
 
     "client" : "cd client && npm install && npm run build",
-    "clients" : "cd client && cd dist",
-    "YES!" : "npm run client && npm run clients",
     "link" : "cd client && npm run serve"
   }
 }
