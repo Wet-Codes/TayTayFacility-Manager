@@ -43,7 +43,8 @@
         <v-icon  size="35">mdi-email</v-icon>
       </v-badge>
 </v-btn>
-    <v-menu >
+    <v-menu > 
+      
       <template v-slot:activator="{ props }" >
       <v-btn v-bind="props" :ripple="false" class="userDiv">
         <v-img cover :src="userImage" class="profile-image" ></v-img>
@@ -51,7 +52,7 @@
 
       </v-btn>
       </template>
-
+      
       <v-card min-width="300" >
       <v-list>
       <v-list-item
@@ -72,12 +73,14 @@
       max-width="600"
       persistent
     >
+
+    <v-spacer></v-spacer>
       <template v-slot:activator="{ props: activatorProps }">
         <v-btn v-bind="activatorProps"  height="50" width="200" color="#406890">
           Logout
         </v-btn>
       </template>
-
+      
       <v-container class="d-flex justify-center align-center">
       <v-card 
         width="420"

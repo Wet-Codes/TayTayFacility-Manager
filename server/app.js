@@ -9,7 +9,9 @@ const User = require('./models/users');
 //setting the database
 const path = require('path');
 const dev_db_url =
-  "mongodb+srv://amjad:123@cluster0.bamqzdf.mongodb.net/taytay_facility_manager";
+  //"mongodb://localhost:27017/" //local
+  "mongodb+srv://amjad:123@cluster0.bamqzdf.mongodb.net/taytay_facility_manager"; //local
+
 const mongoDB = process.env.MONGODB_URI || dev_db_url
 const app = express(); // creating the app
 const port = process.env.PORT || 3000; // setting the port
