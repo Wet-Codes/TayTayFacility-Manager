@@ -53,7 +53,7 @@ module.exports = class UserController {
                 lName,
                 email,
                 password: hashedPassword, // then saving hashed password
-                role: "owner",
+                role: "tenant",
                 image: "default.png",
                 isBanned: false,
               });
